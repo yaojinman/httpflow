@@ -17,6 +17,6 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install libpcap-dev zlib1g-dev libpcre3 libpcre3-dev
-        make
-        make install
-        find . -type f
+        sudo make
+        sudo make install
+        sudo find . -type f
